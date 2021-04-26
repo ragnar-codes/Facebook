@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #f0f1f5;
+}
+.form-container{
+    width: 396px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+.login{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    
+}
+form input{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid rgb(228, 221, 221);
+    display: flex;
+    flex-direction: column;
+}
+.connexion{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid rgb(50, 50, 248);
+    background-color: rgb(50, 50, 248);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.connexion:hover{
+    cursor: pointer;
+}
+.mdp-oub{
+    color: rgb(50, 50, 248);
+    text-align: center;
+    margin-top: 20px;
+}
+.mdp-oub a{
+    text-decoration: none;
+}
+.register{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 180, 12);
+    background-color: rgb(12, 180, 12);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.register:hover{
+    cursor: pointer;
+}
+.logo-cont{
+    position: absolute;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 150px;
+    
+}
+.facebook{
+    position: relative;
+    width: 300px;
+    height: 106px;
+    left: 20px;
+}
+.parag{
+    font-size: 28px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
